@@ -1,0 +1,76 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  background: #ffffff;
+  flex-grow: 0;
+  height: 100%;
+  max-width: 534px;
+  min-height: 0;
+  padding: 24px;
+}
+.text__w8Dwr {
+  position: relative;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.nameNft:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.svg__u5X4G {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__bIsAg {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.symbolNft:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.svg___8HuKr {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___91Cv {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.submitButton:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  width: auto;
+}
+.svg__g8Tr {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__i9Usn {
+  font-size: 16px;
+}
+.svg__cRDnA {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}

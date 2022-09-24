@@ -1,0 +1,96 @@
+.root2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 534px;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  background: #ffffff;
+  padding: 16px;
+  border-width: 10px;
+}
+.text__usxSs {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-weight: 600;
+  background: #ffffff;
+  font-size: 32px;
+  min-width: 0;
+  margin: 16px;
+}
+.nftData:global(.__wab_instance) {
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+.svg__jgi2Y {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__knHt4 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.addressInput:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin: 0px 0px 16px;
+}
+.svg___8FlG {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__qzWt {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.contractInput:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.svg__jguKg {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___0BtkT {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.mintButton:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  align-self: center;
+  margin: 0px;
+}
+.svg__vb6VM {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__ynm7P {
+  text-align: center;
+}
+.svg__qvSjf {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}

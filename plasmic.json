@@ -1,0 +1,178 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+      "projectApiToken": "FHb44IAOprZSDIxhDQdv1CsDbRn5NpdeaHoXJrYTwWQjeHWiANRufBgasFNbh4pBPxryer1OnnYqBYdqIQ",
+      "projectName": "NFT eaze mint",
+      "version": "latest",
+      "cssFilePath": "plasmic/nft_eaze_mint/plasmic_nft_eaze_mint.module.css",
+      "components": [
+        {
+          "id": "Uc6NxlbWQx2",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+          "renderModuleFilePath": "plasmic/nft_eaze_mint/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/nft_eaze_mint/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "3iv-r6L82e0",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+          "renderModuleFilePath": "plasmic/nft_eaze_mint/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/nft_eaze_mint/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "BqY570oxS4",
+          "name": "Contract",
+          "type": "managed",
+          "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+          "renderModuleFilePath": "plasmic/nft_eaze_mint/PlasmicContract.jsx",
+          "importSpec": {
+            "modulePath": "Contract.jsx"
+          },
+          "cssFilePath": "plasmic/nft_eaze_mint/PlasmicContract.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "orROFCdm_t",
+          "name": "DeployContract",
+          "type": "managed",
+          "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+          "renderModuleFilePath": "plasmic/nft_eaze_mint/PlasmicDeployContract.jsx",
+          "importSpec": {
+            "modulePath": "DeployContract.jsx"
+          },
+          "cssFilePath": "plasmic/nft_eaze_mint/PlasmicDeployContract.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "K0hjF132al",
+          "name": "Tittle",
+          "type": "managed",
+          "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+          "renderModuleFilePath": "plasmic/nft_eaze_mint/PlasmicTittle.jsx",
+          "importSpec": {
+            "modulePath": "Tittle.jsx"
+          },
+          "cssFilePath": "plasmic/nft_eaze_mint/PlasmicTittle.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "FWmPl-dn9z",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+          "renderModuleFilePath": "plasmic/nft_eaze_mint/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/nft_eaze_mint/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "jgagNCXIi4",
+          "name": "NfTmint",
+          "type": "managed",
+          "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+          "renderModuleFilePath": "plasmic/nft_eaze_mint/PlasmicNfTmint.jsx",
+          "importSpec": {
+            "modulePath": "NfTmint.jsx"
+          },
+          "cssFilePath": "plasmic/nft_eaze_mint/PlasmicNfTmint.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0_2x5wTysN",
+          "name": "MintPage",
+          "type": "managed",
+          "projectId": "xuJ96AwQwiTrZC9DsK4jCu",
+          "renderModuleFilePath": "plasmic/nft_eaze_mint/PlasmicMintPage.jsx",
+          "importSpec": {
+            "modulePath": "MintPage.jsx"
+          },
+          "cssFilePath": "plasmic/nft_eaze_mint/PlasmicMintPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "XUuLxivtjOv",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/nft_eaze_mint/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "1eRs152dgfn",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/nft_eaze_mint/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "6WI_anV_EPs",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/nft_eaze_mint/icons/PlasmicIcon__Icon.jsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "JVl9r4yA7E",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "YkjYtY5swA",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+}
