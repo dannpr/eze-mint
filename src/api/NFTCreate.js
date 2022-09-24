@@ -3,7 +3,7 @@ const axios = require("axios");
 
 export async function createContract(nameNFT, SymbolNFT) {
     const createNFT = {
-        "key": "bRFEkjlVrQfimrVczfbVNGfvDWcRWE1H",
+        "key": process.env.THENTIC_API,
         "chain_id": 97,
         "name": nameNFT,
         "short_name": SymbolNFT
@@ -19,7 +19,7 @@ export async function createContract(nameNFT, SymbolNFT) {
         url: 'https://thentic.p.rapidapi.com/nfts/contract',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': 'eb883bae0dmshbf8fccab930ab27p13b93cjsn9753aab70003',
+            'X-RapidAPI-Key': process.env.RAPID_API,
             'X-RapidAPI-Host': 'thentic.p.rapidapi.com'
         },
         data: createNFTJson
