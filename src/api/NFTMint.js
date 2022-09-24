@@ -5,7 +5,7 @@ export async function MintNFT(nftData, Address, contract) {
     let id = 0;
 
     const mintNFT = {
-        "key": "bRFEkjlVrQfimrVczfbVNGfvDWcRWE1H",
+        "key": process.env.THENTIC_API,
         "chain_id": 97,
         // should be contract 
         "contract": "0xca0926b2691e4e3d955a51e76f9e2ffb6ab554f1",
@@ -25,7 +25,7 @@ export async function MintNFT(nftData, Address, contract) {
         url: 'https://thentic.p.rapidapi.com/nfts/mint',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': 'f66c443ea8mshf97bedc0a207adep110bb0jsn4cf4bf2da06e',
+            'X-RapidAPI-Key': process.env.RAPID_API,
             'X-RapidAPI-Host': 'thentic.p.rapidapi.com'
         },
         data: mintNFTJson
